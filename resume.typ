@@ -1,5 +1,5 @@
 #set page(
-  margin: 1in,
+  margin: 0.8in,
 )
 
 #set text(
@@ -70,6 +70,12 @@ Fullstack developer with experience delivering enterprise-scale financial and te
 #experience_header("Real-Time 2023 Election Results website - [ODDS] Dailynews", ("React",))
 - Volunteered to contribute to development of a real-time election results website delivering live vote updates.
 - Implemented frontend component to render continuously update election data.
+#v(12pt)
+
+== Education
+#separator
+#experience_header("Suranaree University of Technology", ("Bachelor's degree, Computer Engineering",), "2019 - 2023")
+Gpa: 3.63
 #v(12pt)
 
 == Skills
