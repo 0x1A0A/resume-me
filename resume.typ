@@ -1,5 +1,5 @@
 #set page(
-  margin: 0.8in,
+  margin: 0.5in,
 )
 
 #set text(
@@ -26,7 +26,8 @@
 
   #set text(11pt)
   #separator
-  Thailand | ap.samorod\@gmail.com | defalse.dev | github.com/0x1A0A\
+  Thailand | ap.samorod\@gmail.com | 0849298505\
+  defalse.dev | github.com/0x1A0A
   #v(12pt)
 ]
 
