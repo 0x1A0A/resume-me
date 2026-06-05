@@ -26,7 +26,7 @@
 
   #set text(11pt)
   #separator
-  Thailand | ap.samorod\@gmail.com | 0849298505\
+  Thailand | ap.samorod\@gmail.com | +66 0849298505\
   defalse.dev | github.com/0x1A0A
   #v(12pt)
 ]
@@ -56,9 +56,10 @@ Fullstack developer with experience delivering enterprise-scale financial and te
 
 == Experience
 #separator
-#experience_header("Softtware Engineer - [ODDS] ttb FINOVA", ("NestJS", "React", "TypeScript", "MSSQL"), "Apr 2025 - Present")
+#experience_header("Softtware Engineer - [ODDS] ttb FINOVA", ("NestJS", "React", "TypeScript", "MSSQL"), "Apr 2025 - May 2026")
 - Contributed to delivery of a financial client platform replacing a legacy system under strict release deadlines.
 - Implemented application features and improvements within a high-throughput enterprise environment.
+- Investigated production incidents, performed root cause analysis, and delivered hotfixes for critical financial platform issues, helping maintain system availability and business continuity.
 #v(8pt)
 
 #experience_header("Software Engineer - [ODDS] AIS mychannel", ("Angular", "NestJS", "TypeScript", "MongoDB"), "Apr 2023 - Feb 2025")
@@ -76,13 +77,12 @@ Fullstack developer with experience delivering enterprise-scale financial and te
 == Education
 #separator
 #experience_header("Suranaree University of Technology", ("Bachelor's degree, Computer Engineering",), "2019 - 2023")
-Gpa: 3.63
 #v(12pt)
 
 == Skills
 #separator
 #let skills = (
-  "Languages": ("TypeScript/JavaScript", "Rust", "C/C++", "Haskell"),
+  "Programming Languages": ("TypeScript/JavaScript", "Rust", "C/C++", "Haskell"),
   "Frontend": ("Astro", "React", "Angular", "Vue"),
   "Backend": ("NestJS", "Express"),
   "Database": ("MongoDB", "MSSQL"),
