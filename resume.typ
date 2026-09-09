@@ -67,7 +67,6 @@ Strong interest in system reliability, infrastructure, and secure system design.
 - Supported migration of a legacy PHP application from PHP 5.2 to 7.4 with a focus on preserving existing application behavior.
 - Maintained the development environment and supported testing by investigating database, schema, configuration, and environment issues affecting application functionality.
 - Built a CI/CD pipeline to build container images, push them to Amazon ECR, and deploy services through Amazon ECS.
-- Worked with AWS ECS, ECR, and EC2 to support development and deployment of the migrated application.
 #v(8pt)
 
 #experience_header("Softtware Engineer - [ODT] ttb FINOVA", ("NestJS", "React", "TypeScript", "MSSQL"), "Apr 2025 - May 2026")
