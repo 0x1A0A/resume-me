@@ -30,7 +30,7 @@
 
   #set text(11pt)
   #separator
-  Thailand | ap.samorod\@gmail.com | +66 0849298505\
+  Thailand | ap.samorod\@gmail.com | +66 84 929 8505\
   defalse.dev | github.com/0x1A0A
   #vspacer
 ]
@@ -65,14 +65,16 @@ Strong interest in system reliability, infrastructure, and secure system design.
 
 #experience_header("Software Engineer - [ODT] Toyota Nont", ("PHP", "Docker", "AWS ECS/ECR", "CI/CD"), "Aug 2026 - Present")
 - Supported migration of a legacy PHP application from PHP 5.2 to 7.4 with a focus on preserving existing application behavior.
-- Maintained the development environment and supported testing by investigating database, schema, configuration, and environment issues affecting application functionality.
+- Maintained the development environment, including restoring production databases to dev, and supported testing by investigating database,
+  schema, configuration, and environment issues affecting application functionality.
 - Built a CI/CD pipeline to build container images, push them to Amazon ECR, and deploy services through Amazon ECS.
 #v(8pt)
 
-#experience_header("Softtware Engineer - [ODT] ttb FINOVA", ("NestJS", "React", "TypeScript", "MSSQL"), "Apr 2025 - May 2026")
+#experience_header("Software Engineer - [ODT] ttb FINOVA", ("NestJS", "React", "TypeScript", "MSSQL"), "Apr 2025 - May 2026")
 - Contributed to delivery of a financial client platform replacing a legacy system under strict release deadlines.
 - Implemented application features and improvements within a high-throughput enterprise environment.
-- Investigated production incidents, performed root cause analysis, and delivered hotfixes for critical financial platform issues, helping maintain system availability and business continuity.
+- Investigated production incidents, performed root cause analysis, and delivered hotfixes for critical financial platform issues,
+  helping maintain system availability and business continuity.
 #v(8pt)
 
 #experience_header("Software Engineer - [ODT] AIS mychannel", ("Angular", "NestJS", "TypeScript", "MongoDB"), "Apr 2023 - Feb 2025")
@@ -100,7 +102,7 @@ Strong interest in system reliability, infrastructure, and secure system design.
   "Programming Languages": ("TypeScript/JavaScript", "Rust", "C/C++", "Haskell"),
   "Frontend": ("Astro", "React", "Angular", "Vue"),
   "Backend": ("NestJS", "ExpressJS"),
-  "Database": ("MongoDB", "MSSQL", "MYSQL"),
+  "Database": ("MongoDB", "MSSQL", "MySql"),
   "Infrastructure & Tools": ("Podman/Docker", "Linux", "CI/CD"),
 )
 
