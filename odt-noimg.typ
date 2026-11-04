@@ -39,10 +39,11 @@
 
 #let right_section = ("Experience Highlight": [
   *Toyota Nont* (Aug 2026 - Present)\
-  [PHP, Docker, AWS ECS/ECR, CI/CD]
+  [PHP, Rails, ClickHouse, Airflow, AWS ECS/ECR, CI/CD]
   - Supported migration of a legacy PHP application from PHP 5.2 to 7.4 with a focus on preserving existing application behavior.
   - Maintained the development environment, including restoring production databases to dev, and supported testing by investigating database, schema, configuration, and environment issues affecting application functionality.
   - Built a CI/CD pipeline to build container images, push them to Amazon ECR, and deploy services through Amazon ECS.
+  - Developed sales and after-sales dashboards (Rails, ClickHouse) with Airflow data pipelines, owning development, production setup, and deployment.
   *ttb Finova* (Apr 2025 - May 2026)\
   [React, NestJS, TypeScript, MSSQL]
   - Contributed to delivery of a financial client platform replacing a legacy system under strict release deadlines.

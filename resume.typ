@@ -46,7 +46,7 @@ Strong interest in system reliability, infrastructure, and secure system design.
 
   === #name
   #grid(
-    columns: (1fr, 1fr),
+    columns: (3fr, 1fr),
     [
       #set align(left)
       #tech.join(", ")
@@ -63,11 +63,17 @@ Strong interest in system reliability, infrastructure, and secure system design.
 == Experience
 #separator
 
-#experience_header("Software Engineer - [ODT] Toyota Nont", ("PHP", "Docker", "AWS ECS/ECR", "CI/CD"), "Aug 2026 - Present")
+#experience_header("Software Engineer - [ODT] Toyota Nont", ("PHP", "Ruby on Rails", "ClickHouse", "Airflow", "AWS ECS/ECR"), "Aug 2026 - Present")
 - Supported migration of a legacy PHP application from PHP 5.2 to 7.4 with a focus on preserving existing application behavior.
 - Maintained the development environment, including restoring production databases to dev, and supported testing by investigating database,
   schema, configuration, and environment issues affecting application functionality.
 - Built a CI/CD pipeline to build container images, push them to Amazon ECR, and deploy services through Amazon ECS.
+- Developed sales and after-sales dashboards for a multi-branch dealer group with Ruby on Rails (Hotwire) and ClickHouse,
+  owning development, production setup, and deployment.
+- Built Apache Airflow data pipelines (bronze/silver/gold) ingesting MySQL and legacy CSV exports into ClickHouse,
+  covering about 200k workshop job orders and sale, insurance, and claim data.
+- Set up GitHub Actions deployments across dev (Kamal on EC2), UAT, and production (Amazon ECR/ECS) with lint, test,
+  and security checks.
 #v(8pt)
 
 #experience_header("Software Engineer - [ODT] ttb FINOVA", ("NestJS", "React", "TypeScript", "MSSQL"), "Apr 2025 - May 2026")
@@ -84,12 +90,13 @@ Strong interest in system reliability, infrastructure, and secure system design.
 - Supported production deployments and hotfix releases in a live enterprise environment.
 #v(8pt)
 
+#block(breakable: false)[
 #experience_header("Real-Time 2023 Election Results website - [ODT] Dailynews", ("React",))
 - Volunteered to contribute to development of a real-time election results website delivering live vote updates.
 - Implemented frontend component to render continuously update election data.
+]
 #vspacer
 
-#pagebreak()
 
 == Education
 #separator
