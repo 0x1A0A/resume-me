@@ -27,33 +27,33 @@
   #pad(left: 6pt)[ *Computer Engineering*, Suranaree University of Technology, TH]
 ], "Skill Highlight": [
   - Coding, Problem solving
-    - Programming languages: Rust, C/C++, JavaScript/TypeScript.
+    - Programming languages: JavaScript/TypeScript, Rust, C/C++, Haskell.
   - Tools and frameworks
     - Frontend: React, Angular, Vue, Astro.
     - Backend: NestJS, Express.js.
-    - Database: MSSQL, MongoDB.
-    - Version control: Git.
-    - Container (docker, podman).
-    - Linux Operating system.
+    - Database: MongoDB, MSSQL, MySQL.
+    - Infrastructure: Podman/Docker, Linux, CI/CD, Git.
 ])
 
 #let right_section = ("Professional Summary": [
-  #pad(left: 6pt)[ Fullstack developer with experience delivering enterprise-scale financial and telecom systems. Exposure to microservices, CI automation, and production deployments. Strong interest in system reliability, infrastructure, and secure system design.]
+  #pad(left: 6pt)[ Fullstack developer with experience delivering enterprise-scale financial and telecom systems. Experience across frontend, backend, microservices, and CI/CD. Strong interest in system reliability, infrastructure, and secure system design.]
 ], "Experience Highlight": [
-  *ttb Finova* (Apr 2025 - Present)\
-  [React, NestJS, MSSQL]
+  *Toyota Nont* (Aug 2026 - Present)\
+  [PHP, Docker, AWS ECS/ECR, CI/CD]
+  - Supported migration of a legacy PHP application from PHP 5.2 to 7.4 with a focus on preserving existing application behavior.
+  - Maintained the development environment, including restoring production databases to dev, and supported testing by investigating database, schema, configuration, and environment issues affecting application functionality.
+  - Built a CI/CD pipeline to build container images, push them to Amazon ECR, and deploy services through Amazon ECS.
+  *ttb Finova* (Apr 2025 - May 2026)\
+  [React, NestJS, TypeScript, MSSQL]
   - Contributed to delivery of a financial client platform replacing a legacy system under strict release deadlines.
   - Implemented application features and improvements within a high-throughput enterprise environment.
+  - Investigated production incidents, performed root cause analysis, and delivered hotfixes for critical financial platform issues, helping maintain system availability and business continuity.
   *AIS MyChannel* (Apr 2023 - Feb 2025)\
   [Angular, NestJS, Express.js, Kafka, MongoDB]
   - Developed frontend microfrontend modules (iframe-based) for a telecom sales platform handling device and subscription workflows.
   - Built backend business services coordinating distributed systems within an event-driven microservices architecture.
   - Implemented CI automation to validate builds and tests prior to integration with centralized CD pipelines.
   - Supported production deployments and hotfix releases in a live enterprise environment.
-  *Real-Time 2023 Election Results website*\
-  [React]
-  - Volunteered to contribute to development of a real-time election results website delivering live vote updates.
-  - Implemented frontend component to render continuously update election data.
 ])
 
 #let introduction(firstname, lastname, quote) = [
@@ -127,7 +127,7 @@
           #content
           #v(6pt)
           #if index < right_section.len() - 1 [
-            #place(dx: -6.0pt)[ #line(length: 111%, stroke: (thickness: 2pt, paint: gray, cap: "round"))]
+            #place(dx: -6.0pt)[ #line(length: 110%, stroke: (thickness: 2pt, paint: gray, cap: "round"))]
             #v(12pt)
           ]
         ]
